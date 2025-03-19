@@ -50,6 +50,24 @@ Desenvolva uma classe `Produto` com os seguintes atributos:
 
 Utilize métodos getters e setters para acessar e modificar os atributos privados `nome` e `preco`. Adicione um método `aplicarDesconto` que recebe um valor percentual como argumento e reduz o preço do produto de acordo com o percentual fornecido.
 
+### Desafio 4: Classe Aluno
+
+Desenvolva uma classe `Aluno` com os seguintes atributos:
+
+*   `nome` (privado): Nome do aluno.
+*   `notas` (privado): Notas do aluno (considerei que seriam duas notas para simplificar).
+
+Utilize métodos getters e setters para acessar e modificar os atributos privados. Adicione um método `calcularMedia` que retorna a média das notas do aluno.
+
+### Desafio 5: Classe Livro
+
+Desenvolva uma classe `Livro` com os seguintes atributos:
+
+*   `titulo` (privado): Título do livro.
+*   `autor` (privado): Autor do livro.
+
+Utilize métodos getters e setters para acessar e modificar os atributos privados. Adicione um método `exibirDetalhes` que imprime o título e o autor do livro.
+
 ## Como Executar os Desafios
 
 1.  Clone este repositório para a sua máquina local.

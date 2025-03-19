@@ -51,6 +51,31 @@ public class Main {
 
         produto.aplicarDesconto(10);
         System.out.println("Novo Preço após Desconto: " + produto.getPreco());
+
+        System.out.println("FIM DO DESAFIO 3");
+        System.out.println("Desafio 4: Desenvolva uma classe Aluno com os atributos privados nome e notas. Utilize métodos getters e setters para acessar e modificar esses atributos. Adicione um método calcularMedia que retorna a média das notas do aluno.");
+
+        Aluno aluno1 = new Aluno("Renison", 10,8);
+        aluno1.calcularMedia();
+        System.out.println("Aluno: " + aluno1.getNomeAluno());
+        System.out.println("Média: " + aluno1.calcularMedia());
+
+        Aluno aluno2 = new Aluno("Lara", 10 , 10);
+        aluno2.calcularMedia();
+        System.out.println("Aluno: " + aluno2.getNomeAluno());
+        System.out.println("Média: " + aluno2.calcularMedia());
+
+
+        System.out.println("FIM DO DESAFIO 4");
+
+        System.out.println("Desafio 5: Desenvolva uma classe Livro com os atributos privados titulo e autor. Utilize métodos getters e setters para acessar e modificar esses atributos. Adicione um método exibirDetalhes que imprime o título e o autor do livro.");
+
+        Livro livro1 = new Livro("A lista de Convidados", "Sarah Bernete");
+        livro1.exibirDetalhes();
+        Livro livro2 = new Livro("A volta dos que não foram", "Charles Henrique Pedia");
+        livro2.exibirDetalhes();
+
+
     }
 
 }
